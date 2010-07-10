@@ -64,6 +64,7 @@ More information
 ----------------
 
 You can find more information about the SPEAR algorithm at:
+
 * http://www.spear-algorithm.org/
 * "Telling Experts from Spammers: Expertise Ranking in Folksonomies"
   Michael G. Noll, Ching-man Au Yeung, et al.
