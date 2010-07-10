@@ -66,10 +66,8 @@ More information
 You can find more information about the SPEAR algorithm at:
 
 * [http://www.spear-algorithm.org/](http://www.spear-algorithm.org/)
-* [Telling Experts from Spammers: Expertise Ranking in Folksonomies](http://portal.acm.org/citation.cfm?id=1571941.1572046)
-
-  Michael G. Noll, Ching-man Au Yeung, et al.
-
+* [Telling Experts from Spammers: Expertise Ranking in Folksonomies](http://portal.acm.org/citation.cfm?id=1571941.1572046)  
+  Michael G. Noll, Ching-man Au Yeung, et al.  
   SIGIR 09: Proceedings of 32nd International ACM SIGIR Conference
   on Research and Development in Information Retrieval, Boston, USA,
   July 2009, pp. 612-619, ISBN 978-1-60558-483-6
