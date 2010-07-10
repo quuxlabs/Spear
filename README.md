@@ -40,12 +40,13 @@ Usage
 
 The algorithm requires a list of user activities on resources as input. More specifically, it requires a list of (timestamp, user, resource) tuples.
 
+    >>> import spear
     >>> activities = [
     ... (datetime.datetime(2010,7,1,9,0,0), "alice", "http://www.quuxlabs.com/"),
     ... (datetime.datetime(2010,8,1,12,45,0), "bob", "http://www.quuxlabs.com/"),
     ... ]
-    >>> spear = Spear(activities)
-    >>> expertise_results, quality_results = spear.run()
+    >>> spear_algorithm = spear.Spear(activities)
+    >>> expertise_results, quality_results = spear_algorithm.run()
 
 Get the top user and his expertise score:
 
