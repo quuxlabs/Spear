@@ -152,6 +152,9 @@ class Spear(object):
         #
         current_score = {}
 
+        # Stores the previously encountered (= most recent) timestamp
+        # of actions on a resource
+        #
         prev_timestamp_of_docs = {}
     
         # Each matrix cell stores the "action position" of user i
