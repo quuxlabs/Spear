@@ -137,7 +137,7 @@ class Spear(object):
         # Calculate the number of actions per resource.
         #
         # In social bookmarking scenarios, for example, the number of actions
-        # of a resource would be its number of bookmarks.
+        # on a resource would be its number of bookmarks.
         num_actions = {}
         for timestamp, user, resource in self.activities:
             num_actions[resource] = num_actions.get(resource, 0) + 1
