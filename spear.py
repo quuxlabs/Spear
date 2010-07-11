@@ -300,11 +300,9 @@ class Spear(object):
         if verbose:
             print "Step 4) Sorting vectors E and Q by expertise and quality scores, respectively"
         expertise_results = [ (expertise_score, self._get_user(userid)) for userid, expertise_score in enumerate(E) ]
-        expertise_results.sort()
-        expertise_results.reverse()
+        expertise_results.sort(reverse=True)
         quality_results = [ (quality_score, self._get_resource(resourceid)) for resourceid, quality_score in enumerate(Q) ]
-        quality_results.sort()
-        quality_results.reverse()
+        quality_results.sort(reverse=True)
     
         return expertise_results, quality_results
 
