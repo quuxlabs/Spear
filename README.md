@@ -26,6 +26,8 @@ After installation, a simple import deliciousapi in your Python scripts will do 
 
 An alternative installation method is downloading the code straight from the git repository.
 
+The SPEAR Python library requires [SciPy/NumPy](http://www.scipy.org/). If you don’t have these installed already, here are some [installation instructures](http://www.scipy.org/Installing_SciPy) to get you started.
+
 Updates
 -------
 
